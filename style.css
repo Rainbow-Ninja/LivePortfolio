@@ -879,5 +879,6 @@ h1{
 
     #HomeHeading h3{
         font-size: 1.1em;
+        margin: 5px 0 0 0;
     }
 }
