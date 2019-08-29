@@ -257,6 +257,12 @@ section img{
     text-shadow: -5px -5px 5px #111, 0 0 0.5em aqua;
 }
 
+#projectbg img {
+    max-height: 300px;
+    max-width: 400px;
+    padding: 20px;
+}
+
 /* section heading */
 #projects h1{
     color: white;
@@ -266,15 +272,32 @@ section img{
 #PacmanSection, #MazeSection, #bobPageSection, #farmersSection {
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 50%;
+    flex: 1 1 45%;
     justify-content: space-around;
 }
 
-#TictactoeSection, #ExercismSection, #CongratsSection, #AstroBoySection, #cuteTacoSection, #bobRossSection {
+#TictactoeSection, #ExercismSection, #CongratsSection, #AstroBoySection, #cuteTacoSection {
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 30%;
     justify-content: space-around;
+}
+
+#cuteTacoSection #cuteTaco{
+    max-width: 90%;
+}
+
+#bobRossSection h4 {
+    padding: 20px 0 0 7%;
+}
+
+#bobRossSection img{
+    padding: 20px 0 0 20%;
+}
+
+#farmersSection h4{
+    max-width: 80%;
+    margin: 20px;
 }
 
 video {
@@ -285,25 +308,23 @@ video {
     -webkit-transform: translateZ(0); /*put videos behind nav */
 }
 
-#projectbg img {
-    max-height: 300px;
-    max-width: 400px;
-    padding: 20px;
-}
-
 #caption h4 {
     max-width: 100%;
 }
 
-#pacman:hover {
+#caption{
+    justify-content: space-around;
+}
+
+#pacman:hover, #cuteTaco:hover {
     box-shadow: 0px 0px 30px 10px red;
 }
 
-#maze:hover {
+#maze:hover, #bobPage:hover {
     box-shadow: 0px 0px 30px 10px orange;
 } 
 
-#congrats:hover {
+#congrats:hover, #farmers:hover {
     box-shadow: 0px 0px 30px 10px yellow;
 }
 
@@ -319,17 +340,6 @@ video {
     box-shadow: 0px 0px 30px 10px rgb(160, 1, 160);
 }
 
-#cuteTaco:hover {
-    box-shadow: 0px 0px 30px 10px red;
-}
-
-#bobPage:hover {
-    box-shadow: 0px 0px 30px 10px orange;
-}
-
-#farmers:hover {
-    box-shadow: 0px 0px 30px 10px yellow;
-}
 
 /* About ---------------------------------------------------------------------------------- */
 
@@ -711,6 +721,10 @@ h1{
         margin: 1vh 0 0 0;
     }
 
+    #farmersSection #caption h4{
+        margin-left: 15%;
+    }
+
 /* Nav -------------------------------------------------------------------------------------*/
     li {
         font-size: 0.95em;
@@ -834,5 +848,16 @@ h1{
 
     .rainbowLine{
         margin-top: 3vh;
+    }
+}
+
+@media only screen and (max-width: 415px){
+
+    #bobPageSection img, #farmersSection img{
+        max-width: 330px;
+    }
+
+    #bobRossSection img{
+        padding: 10%;
     }
 }
