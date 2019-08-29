@@ -876,4 +876,8 @@ h1{
     #farmers:hover, #bobPage:hover {
         box-shadow: 0;
     } 
+
+    #HomeHeading h3{
+        font-size: 1.1em;
+    }
 }
