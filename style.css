@@ -884,10 +884,6 @@ h1{
         padding: 15px;
     }
 
-    #bobRossSection h4{
-        margin-left: 10%;
-    }
-
     #farmers:hover, #bobPage:hover {
         box-shadow: 0;
     } 
