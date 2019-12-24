@@ -229,10 +229,10 @@ section img{
     border: 0;
     text-align: center;
     padding: 10px 0 0 0;
-    max-width: 85%;
+    width: 95%;
     color: white;
     font-weight: normal;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 /* click video line */
@@ -269,14 +269,14 @@ section img{
     position: absolute;
 }
 
-#PacmanSection, #MazeSection, #bobPageSection, #farmersSection {
+#PacmanSection, #MazeSection, #bobPageSection, #farmersSection, #monsterSection, #memorySection {
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 45%;
     justify-content: space-around;
 }
 
-#TictactoeSection, #ExercismSection, #CongratsSection, #AstroBoySection, #cuteTacoSection {
+#TictactoeSection, #ExercismSection, #CongratsSection, #AstroBoySection, #cuteTacoSection, #bobRossSection {
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 30%;
@@ -293,12 +293,6 @@ section img{
 
 #bobRossSection img{
     padding: 15px;
-    margin-left: 15%;
-}
-
-#farmersSection h4{
-    max-width: 80%;
-    margin: 20px;
 }
 
 video {
@@ -307,14 +301,6 @@ video {
     max-height: 300px;
     padding: 20px;
     -webkit-transform: translateZ(0); /*put videos behind nav */
-}
-
-#caption h4 {
-    max-width: 100%;
-}
-
-#caption{
-    justify-content: space-around;
 }
 
 #pacman:hover, #cuteTaco:hover {
@@ -333,12 +319,25 @@ video {
     box-shadow: 0px 0px 30px 10px rgba(17, 253, 5, 1);
 }
 
-#exercism:hover {
+#exercism:hover, #monsters:hover {
     box-shadow: 0px 0px 30px 10px blue;
 }
 
-#AstroBoy:hover {
+#AstroBoy:hover, #memory:hover {
     box-shadow: 0px 0px 30px 10px rgb(160, 1, 160);
+}
+
+#projects li{
+    display: list-item;
+    list-style-type: disc;
+    color: rgb(56, 123, 247);
+    margin-left: 45%;
+    font-size: 1.4em;
+    text-shadow: -2px -2px 5px #111;
+}
+
+#projects ul{
+    margin-top: 20px;
 }
 
 
@@ -730,10 +729,6 @@ h1{
     section div h6:hover{
         transform: scale(1);
         margin: 1vh 0 0 0;
-    }
-
-    #farmersSection #caption h4{
-        margin-left: 15%;
     }
 
 /* Nav -------------------------------------------------------------------------------------*/
