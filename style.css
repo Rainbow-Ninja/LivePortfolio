@@ -758,12 +758,12 @@ h1{
 
     #projectbg h4{
         width: 100%;
-        max-width: 70%;
+        max-width: 90%;
         font-size: 1.4em;
     }
 
     #projectbg div p{
-        padding:0;
+        padding: 0;
     }
 
     #AstroBoySection{
