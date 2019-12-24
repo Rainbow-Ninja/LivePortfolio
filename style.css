@@ -292,7 +292,8 @@ section img{
 }
 
 #bobRossSection img{
-    padding: 20px 0 0 20%;
+    padding: 15px;
+    margin-left: 15%;
 }
 
 #farmersSection h4{
@@ -320,15 +321,15 @@ video {
     box-shadow: 0px 0px 30px 10px red;
 }
 
-#maze:hover, #bobPage:hover {
+#maze:hover, #bobRoss:hover {
     box-shadow: 0px 0px 30px 10px orange;
 } 
 
-#congrats:hover, #farmers:hover {
+#congrats:hover, #bobPage:hover {
     box-shadow: 0px 0px 30px 10px yellow;
 }
 
-#tictactoe:hover {
+#tictactoe:hover, #farmers:hover {
     box-shadow: 0px 0px 30px 10px rgba(17, 253, 5, 1);
 }
 
@@ -455,6 +456,10 @@ video {
     padding: 0;
 }
 
+#holder img{
+    display: none;
+}
+
 /* Contact -------------------------------------------------------------------------------- */
 
 #contact{
@@ -490,7 +495,7 @@ video {
 }
 
 /* colours when clicked */
-#twitter h2:hover, #blog h2:hover{
+#twitter h2:hover, #codePen h2:hover{
     background: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 165, 0, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -503,7 +508,13 @@ video {
 }
 
 #linkedin h2:hover, #email h2:hover{
-    background: linear-gradient(to right,rgba(0, 0, 255, 1), rgba(128, 0, 128, 1));
+    background: linear-gradient(to right, rgba(17, 253, 5, 1), rgba(0, 0, 255, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#blog h2:hover{
+    background: linear-gradient(to right, rgba(94, 52, 179, 1), rgba(128, 0, 128, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
