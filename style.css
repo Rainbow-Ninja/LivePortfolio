@@ -287,10 +287,6 @@ section img{
     max-width: 90%;
 }
 
-#bobRossSection h4 {
-    padding: 20px 0 0 7%;
-}
-
 #bobRossSection img{
     padding: 15px;
 }
@@ -331,7 +327,7 @@ video {
     display: list-item;
     list-style-type: disc;
     color: rgb(56, 123, 247);
-    margin-left: 45%;
+    margin-left: 30%;
     font-size: 1.4em;
     text-shadow: -2px -2px 5px #111;
 }
