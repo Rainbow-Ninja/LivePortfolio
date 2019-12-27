@@ -307,11 +307,11 @@ video {
     box-shadow: 0px 0px 30px 10px orange;
 } 
 
-#congrats:hover, #bobPage:hover {
+#tictactoe:hover, #bobPage:hover {
     box-shadow: 0px 0px 30px 10px yellow;
 }
 
-#tictactoe:hover, #farmers:hover {
+#congrats:hover, #farmers:hover {
     box-shadow: 0px 0px 30px 10px rgba(17, 253, 5, 1);
 }
 
