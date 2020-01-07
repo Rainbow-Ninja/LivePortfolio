@@ -762,9 +762,13 @@ h1{
     }
 
     #AstroBoySection #AstroBoy{
-        /* max-width: 350px; */
         padding: 10px;
     }
+
+    #cuteTacoSection img{
+        max-width: 320px;
+    }
+
 
 /* About ---------------------------------------------------------------------------------- */
 
