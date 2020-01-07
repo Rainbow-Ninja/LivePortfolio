@@ -663,6 +663,8 @@ h1{
         font-size: 1.5em;
     }
 
+
+
 }
 
 /* Mobile more specifically the Galaxy S5---------------------------------------------------*/
@@ -671,7 +673,7 @@ h1{
 /* Mobile ----------------------------------------------------------------------------------*/
 /* Mobile ----------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 770px){
+@media only screen and (max-width: 800px){
 
 /* Homepage --------------------------------------------------------------------------------*/
     #homepagebox{
@@ -755,8 +757,9 @@ h1{
 
     #projectbg h4{
         width: 100%;
-        max-width: 90%;
+        max-width: 70%;
         font-size: 1.4em;
+        padding: 10px 15%;
     }
 
     #projectbg div p{
@@ -871,7 +874,7 @@ h1{
 /* -----------------------------------415px-------------------------------------------- */
 /* ------------------------------------------------------------------------------------ */
 
-@media only screen and (max-width: 415px){
+@media only screen and (max-width: 620px){
 
     #bobPageSection img, #farmersSection img{
         max-width: 330px;
