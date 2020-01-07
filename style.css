@@ -285,7 +285,6 @@ section img{
     justify-content: space-around;
 }
 
-
 video {
     margin: 0 auto;
     max-width: 400px;
@@ -299,6 +298,25 @@ video {
     height: 500px;
 }
 
+#bobPageSection a{
+    background-color: white;
+}
+
+#cuteTaco{
+    height: 300px;
+    background-color: rgb(137, 215, 241);
+}
+
+#memory{
+    height: 300px;
+    background-color: white;
+}
+
+#monsters{
+    width: 400px;
+    background-color: white;
+}
+
 
 #pacman:hover, #cuteTaco:hover {
     box-shadow: 0px 0px 30px 10px red;
@@ -308,7 +326,7 @@ video {
     box-shadow: 0px 0px 30px 10px orange;
 } 
 
-#tictactoe:hover, #bobPage:hover {
+#tictactoe:hover, #bobPageSection a:hover {
     box-shadow: 0px 0px 30px 10px yellow;
 }
 
@@ -760,6 +778,10 @@ h1{
         max-width: 70%;
         font-size: 1.4em;
         padding: 10px 15%;
+    }
+
+    #memorySection h4{
+        padding: 10px 15% 40px 15%;
     }
 
     #projectbg div p{
