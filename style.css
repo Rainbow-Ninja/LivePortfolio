@@ -536,12 +536,6 @@ video {
     -webkit-text-fill-color: transparent;
 }
 
-#blog h2:hover{
-    background: linear-gradient(to right, rgba(94, 52, 179, 1), rgba(128, 0, 128, 1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 #contactArea a{
     text-decoration: none;
 }
