@@ -500,8 +500,9 @@ video {
 #contactArea div{
     display: flex;
     justify-content: flex-start;
-    flex: 1 1 300px;
+    /* flex: 1 1 300px; */
     margin: 30px 1vw;
+    width: 23%;
 }
 
 #contactArea h2{
@@ -530,13 +531,7 @@ video {
 }
 
 #linkedin h2:hover, #email h2:hover{
-    background: linear-gradient(to right, rgba(17, 253, 5, 1), rgba(0, 0, 255, 1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-#blog h2:hover{
-    background: linear-gradient(to right, rgba(94, 52, 179, 1), rgba(128, 0, 128, 1));
+    background: linear-gradient(to right,rgba(0, 0, 255, 1), rgba(94, 52, 179, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
