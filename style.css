@@ -916,8 +916,9 @@ h1{
     }
 }
 
-#contact-form iframe {
-    border: none;
-    width: 100%;
-    height: 692px;
+#contact-form .form-group {
+    margin-bottom: 1em;
+}
+#contact-form label, #contact-form input {
+    display: block;
 }
