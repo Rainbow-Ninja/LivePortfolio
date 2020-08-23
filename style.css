@@ -916,6 +916,12 @@ h1{
     }
 }
 
+#contact-form {
+  color: white;
+  font-family: sans-serif;
+  margin: auto;
+  max-width: 768px;
+}
 #contact-form .form-group {
     margin-bottom: 1em;
 }
