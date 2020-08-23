@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="container">
@@ -244,18 +247,20 @@
                 <div class="secondDivBack">
                 </div>
             </div>
-            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-                <label for="subject">Subject:</label><br>
-                <input type="text" id="subject" name="subject" required><br><br>
-                <label for="message">Message:</label><br>
-                <textarea rows="10" id="message" name="message" required></textarea><br><br>
-                <div data-netlify-recaptcha="true"></div><br><br>
-                <button type="submit">Submit</button>
-            </form>
+            <div id="contact-form-fancybox" style="display:none">
+                <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject" required><br><br>
+                    <label for="message">Message:</label><br>
+                    <textarea rows="10" id="message" name="message" required></textarea><br><br>
+                    <div data-netlify-recaptcha="true"></div><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
             <div id="contactArea">
                 <div class="contactClass" id="twitter">
                     <img src="./images/twitter.png" alt="twitter">
@@ -279,7 +284,7 @@
                 </div>
                 <div class="contactClass" id="email">
                     <img src="./images/email.png" alt="email">
-                    <a href="mailto:scaffelpike@yahoo.com.au?subject=Mail%from%Portfolio%Page"><h2>Email Me</h2></a>
+                    <a data-fancybox data-src="#contact-form-fancybox"><h2>Email Me</h2></a>
                 </div>
             </div>
             <div class="rainbowLine">
