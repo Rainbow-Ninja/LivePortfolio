@@ -925,8 +925,6 @@ h1{
     margin-bottom: 1em;
 }
 #contact-form label, #contact-form input, #contact-form textarea {
-    width: 100%:
-}
-#contact-form input {
     display: block;
+    width: 100%:
 }
