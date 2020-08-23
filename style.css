@@ -921,10 +921,10 @@ h1{
   font-family: sans-serif;
   margin: 0 1em;
 }
-#contact-form .form-group {
+.form-group {
     margin-bottom: 1em;
 }
-#contact-form label, #contact-form input, #contact-form textarea {
+#contact-form label, .form-control {
     display: block;
     width: 100%;
 }
